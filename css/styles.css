@@ -1,8 +1,35 @@
-navbar-brand {
-  text-align: justify;
+main.wrapper{
+  width: 1000px;
 }
 
-h1 {
+main .welcomeText{
+  margin-top: 40px;
+  margin-left: 500px;
+  padding: 20px 0;
+  border-top: 5px solid #dedede;
+  border-bottom: 5px solid #dedede;
+  border-left: 5px solid #dedede;
+  border-right: 5px solid #dedede;
+}
+
+main .welcomeText h1{
+  font-family: 'Lobster',cursive;
+  font-size: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0px;
   text-align: center;
-  margin-top: 50px;
+}
+
+main .welcomeText p{
+  font-size: 16px;
+  margin: 20px;
+  padding: 0px;
+  line-height: 2;
+  word-spacing: 3px;
+}
+
+main.bannerLeft{
+  margin-top: 40px;
+  margin-left: 50px;
 }
