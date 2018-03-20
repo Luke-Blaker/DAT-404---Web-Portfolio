@@ -1,10 +1,12 @@
 main.wrapper{
-  width: 1000px;
+  width: 1920px;
 }
 
 main .welcomeText{
   margin-top: 40px;
-  margin-left: 500px;
+  margin-left: 33%;
+  margin-right: 33%;
+  position: absolute;
   padding: 20px 0;
   border-top: 5px solid #dedede;
   border-bottom: 5px solid #dedede;
