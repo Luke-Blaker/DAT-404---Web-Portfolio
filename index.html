@@ -11,7 +11,7 @@
     <link href="css/hover.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
   </head>
-  <body id="pagetop">
+  <body id="page">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-uppercase">
             <a class="navbar-brand hvr-underline-from-left" href="#pagetop">Luke Blaker - Portfolio</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target="#mobileMenu">
@@ -20,10 +20,10 @@
             <div class="collapse navbar-collapse" id="mobileMenu">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="#about">Home</a>
+                  <a class="nav-link hvr-pulse" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="mywork.html">My Work</a> 
+                  <a class="nav-link hvr-pulse" href="'mywork'">My Work</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-pulse" href="#">Waste 5 Minutes</a>
@@ -31,20 +31,13 @@
               </ul>
             </div>
       </nav>
-      <br>
-      <main class="wrapper">
-        <section class="welcomeText" id="welcomeText" >
-          <h1>About me</h1>
-          <p>Hi, my name is Luke.</p>
-          <p>I am currently studying Bsc. Digital Media Design at Plymouth University. This website was created for the DAT 404 "Web for everyone" assignment.</p>
-          <p>My object with the website is to create a place where I can showcase my work throughout my time at University, and then use to find employment in the future.</p>
-          <p>This website is presently a work in progress and I intend to include a completed version of my weather app to this website.</p>
-        </section>
-      </main>
-
-
+      <div class="aboutScreen">
+          <canvas id="aboutAnim" width="500" height="500"></canvas>
+          <a href="javascript:loadjscssfile('myscript.js','js')">Load "aboutBackgr.js"</a>
   </body>
-  <script src="js/sketch.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+    <script type="text/javascript" src="js/navBarAnim.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </html>
