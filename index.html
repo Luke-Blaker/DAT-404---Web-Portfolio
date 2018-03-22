@@ -11,8 +11,12 @@
     <link href="css/hover.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
   </head>
-  <body id="page">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-uppercase">
+  <body class="page">
+    <section id="intro" style="background-image: url('assets/headerBG.jpg');"class="intro"  height="1000" width="1900">
+
+    </section>
+    <header class="header">
+      <nav class="navbar sticky-wrapper navbar-expand-lg navbar-dark bg-dark text-uppercase">
             <a class="navbar-brand hvr-underline-from-left" href="#pagetop">Luke Blaker - Portfolio</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target="#mobileMenu">
               <i class="fas fa-bars"></i>
@@ -23,7 +27,7 @@
                   <a class="nav-link hvr-pulse" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="'mywork'">My Work</a>
+                  <a class="nav-link hvr-pulse" href="'#mywork'">My Work</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-pulse" href="#">Waste 5 Minutes</a>
@@ -31,12 +35,30 @@
               </ul>
             </div>
       </nav>
-      <div class="aboutScreen">
-          <canvas id="aboutAnim" width="500" height="500"></canvas>
-          <a href="javascript:loadjscssfile('myscript.js','js')">Load "aboutBackgr.js"</a>
+    </header>
+
+
+
+      <section id="about" class="text">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                       <h2 class="heading">About me</h2>
+                       <p class="lead">Hi. My name is Chris.</p>
+                       <p>Phat Digital is my way of offering Simple and Straightforward Web Development Services to those looking for a jargon free and clean cut service. </p>
+                       <p>After spending the last 3.5 years as part of a larger agency (Tellonline) I am now continuing my career in the world of Web Development on my own, focusing mainly on delivering solutions to start ups, and those who aren't quite sure what a presence on the web can do for them and their business.</p>
+                       <p>Wordpress is my platform of choice when it comes to CMS solutions, but I have experience working in Kentico, Joomla and delivering Static HTML pages, where necessary.</p>
+                   </div>
+                   <div class="col-md-5 col-md-offset-1">
+                       <p><img src="img/me.jpg" alt="" class="img-responsive img-circle"></p>
+                   </div>
+               </div>
+           </div>
+       </section>
+
   </body>
 
-
+    <script type="text/javascript" src="js/aboutBackgr.js"></script>
     <script type="text/javascript" src="js/navBarAnim.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>

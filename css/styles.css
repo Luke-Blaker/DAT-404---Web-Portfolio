@@ -1,3 +1,10 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
 main.wrapper{
   width: 1920px;
 }
@@ -34,4 +41,13 @@ main .welcomeText p{
 main.bannerLeft{
   margin-top: 40px;
   margin-left: 50px;
+}
+
+.page{
+height:2000px;
+}
+
+.intro{
+  width: 1900px;
+  height: 1000px;
 }

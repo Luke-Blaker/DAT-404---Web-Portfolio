@@ -1,4 +1,3 @@
-const Animate = document.querySelector('aboutAnim');
 let circleObject1;
 let circleObject2;
 function setup() {
