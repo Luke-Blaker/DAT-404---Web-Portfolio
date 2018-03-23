@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>LB Portfolio</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Mono|Anton|Raleway" rel="stylesheet">
@@ -12,25 +12,39 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="page">
-    <section id="intro" style="background-image: url('assets/headerBG.jpg');"class="intro"  height="1000" width="1900">
+    <main>
+      <section id="intro" style="background-image: url('assets/headerBG.jpg');" class="intro">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="container clearfix">
+              <div class="row">
+              <div class="col-sm">
 
-    </section>
+              </div>
+              <div class="col-md-6 custom"> <img class="img-responsive" src="assets/WebLogo.png"> </div>
+              <div class="col-sm">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <header class="header">
       <nav class="navbar sticky-wrapper navbar-expand-lg navbar-dark bg-dark text-uppercase">
-            <a class="navbar-brand hvr-underline-from-left" href="#pagetop">Luke Blaker - Portfolio</a>
+            <a class="navbar-brand hvr-underline-from-left" href="#intro">Luke Blaker - Portfolio</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target="#mobileMenu">
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="mobileMenu">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="#home">Home</a>
+                  <a class="nav-link hvr-pulse" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-pulse" href="'#mywork'">My Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="#">Waste 5 Minutes</a>
+                  <a class="nav-link hvr-pulse" href="#mycat">My Cat</a>
                 </li>
               </ul>
             </div>
@@ -42,9 +56,9 @@
       <section id="about" class="text">
            <div class="container">
                <div class="row">
-                   <div class="col-md-6">
+                   <div class="col-sm">
                        <h2 class="heading">About me</h2>
-                       <p class="lead">Hi. My name is Chris.</p>
+                       <p class="lead">My name is Luke. Welcome to my website.</p>
                        <p>Phat Digital is my way of offering Simple and Straightforward Web Development Services to those looking for a jargon free and clean cut service. </p>
                        <p>After spending the last 3.5 years as part of a larger agency (Tellonline) I am now continuing my career in the world of Web Development on my own, focusing mainly on delivering solutions to start ups, and those who aren't quite sure what a presence on the web can do for them and their business.</p>
                        <p>Wordpress is my platform of choice when it comes to CMS solutions, but I have experience working in Kentico, Joomla and delivering Static HTML pages, where necessary.</p>
@@ -55,7 +69,7 @@
                </div>
            </div>
        </section>
-
+  </main>
   </body>
 
     <script type="text/javascript" src="js/aboutBackgr.js"></script>
