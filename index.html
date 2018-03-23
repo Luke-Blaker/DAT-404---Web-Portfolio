@@ -12,7 +12,7 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="page">
-    <main>
+
       <section id="intro" style="background-image: url('assets/headerBG.jpg');" class="intro">
         <div class="overlay"></div>
         <div class="content">
@@ -30,7 +30,7 @@
         </div>
       </section>
     <header class="header">
-      <nav class="navbar sticky-wrapper navbar-expand-lg navbar-dark bg-dark text-uppercase">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
             <a class="navbar-brand hvr-underline-from-left" href="#intro">Luke Blaker - Portfolio</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target="#mobileMenu">
               <i class="fas fa-bars"></i>
@@ -38,10 +38,10 @@
             <div class="collapse navbar-collapse" id="mobileMenu">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="#about">About</a>
+                  <a class="nav-link hvr-pulse" href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-pulse" href="'#mywork'">My Work</a>
+                  <a class="nav-link hvr-pulse" href="#mywork">My Work</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link hvr-pulse" href="#mycat">My Cat</a>
@@ -53,26 +53,90 @@
 
 
 
-      <section id="about" class="text">
-           <div class="container">
-               <div class="row">
-                   <div class="col-sm">
-                       <h2 class="heading">About me</h2>
-                       <p class="lead">My name is Luke. Welcome to my website.</p>
-                       <p>Phat Digital is my way of offering Simple and Straightforward Web Development Services to those looking for a jargon free and clean cut service. </p>
-                       <p>After spending the last 3.5 years as part of a larger agency (Tellonline) I am now continuing my career in the world of Web Development on my own, focusing mainly on delivering solutions to start ups, and those who aren't quite sure what a presence on the web can do for them and their business.</p>
-                       <p>Wordpress is my platform of choice when it comes to CMS solutions, but I have experience working in Kentico, Joomla and delivering Static HTML pages, where necessary.</p>
-                   </div>
-                   <div class="col-md-5 col-md-offset-1">
-                       <p><img src="img/me.jpg" alt="" class="img-responsive img-circle"></p>
-                   </div>
-               </div>
-           </div>
-       </section>
+    <main>
+      <section class="text" id="about" >
+        <div class="content">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl custom">
+                <h1>About me</h1>
+                <p>Hi, my name is Luke.</p>
+                <p>I am currently studying Bsc. Digital Media Design at Plymouth University. This website was created for the DAT 404 "Web for everyone" assignment.
+                  My object with the website is to create a place where I can showcase my work throughout my time at University, and then use to find employment in the future.
+                  This website is presently a work in progress.</p>
+              </div>
+              <div class="col-xl custom" id="aboutImg">
+                <img class="img-responsive" src="assets/MeImg.png">
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text" id="mywork">
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md">
+            </div>
+            <div class="col-md custom">
+              <h1>My Work</h1>
+                <p>Here is where I shall be organising my future work for viewing. For the sake of functionality I have hyperlinked my development blog.
+                Click on the link below to be redirected to tumblr.com. Eventually, this section will contain links to different works of mine.
+                Eg: I intend to include a completed version of my weather app to this website.</p>
+                <a class="link" href="https://lukeblakerdevblog.tumblr.com/">Development Blog</a>
+            </div>
+            <div class="col-md">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text" id="mycat">
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 custom2">
+              <img class="img-responsive" src="assets/patsy1.jpg" id="cat1">
+            </div>
+            <div class="col-md-4 custom2">
+              <img class="img-responsive" src="assets/patsy.jpg" id="cat2">
+            </div>
+            <div class="col-md-4 custom2">
+              <img class="img-responsive" src="assets/patsy.jpg" id="cat3">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 custom2">
+              <img class="img-responsive" src="assets/patsy.jpg" id="cat4">
+            </div>
+            <div class="col-md-4 custom2">
+              <h1>My Cat</h1>
+            </div>
+            <div class="col-md-4 custom2">
+              <img class="img-responsive" src="assets/patsy.jpg" id="cat5">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 custom2">
+              <img class="img-responsive" src="assets/patsy.jpg" id="cat6">
+            </div>
+            <div class="col-md-4 custom2">
+              <h1>column</h1>
+            </div>
+            <div class="col-md-4 custom2">
+              <h1>column</h1>
+            </div>
+          </div>
+        </div>
+
+
   </main>
+
   </body>
 
-    <script type="text/javascript" src="js/aboutBackgr.js"></script>
+
     <script type="text/javascript" src="js/navBarAnim.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
