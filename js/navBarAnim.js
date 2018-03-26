@@ -14,3 +14,21 @@ function addPulse(e){
 function removePulse(e){
   this.classList.remove('animated', 'pulse');
 }
+
+
+window.onscroll = function() {addStick()};
+
+
+var navbar = document.querySelector('.navbar');
+
+
+var sticky = navbar.offsetTop;
+
+
+function addStick() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

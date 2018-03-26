@@ -3,9 +3,7 @@ body{
   height: 100%;
 }
 
-main.wrapper{
-  width: 1900px;
-}
+
 
 main.bannerLeft{
   margin-top: 40px;
@@ -13,17 +11,35 @@ main.bannerLeft{
 }
 
 .page{
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-div > img-responsive {
-  display: block;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 80px;
+}
+
+
+.navbar{
+  width: 100%
+}
+
+div < img-responsive {
+  max-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
-  min-height: 25%;
-  min-width: 25%;
   transform: translate(-50%, -50%);
+}
+
+.aboutImg{
+    max-width: 100%;
+    height: auto;
 }
 
 .intro {
@@ -32,17 +48,61 @@ div > img-responsive {
   height: 100vh;
   color: #fff;
   background-color: #111;
-  min-height: ;
+
   padding: 0;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
 
+
+
 }
-,
-main.intro.col-md{
-margin-left: 33%;
+.about {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-color: #111;
+
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+
+
+}
+
+.mywork {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-color: #111;
+
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+
+
+}
+
+.mycat {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background-color: #111;
+
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+
 
 }
 
@@ -62,8 +122,8 @@ main .col-xl  {
   margin-bottom: auto;
 
 }
-main .text{
-height: 100vh;
+.text{
+
 border-top: 5px solid #dedede;
 border-bottom: 5px solid #dedede;
 border-left: 5px solid #dedede;
@@ -89,6 +149,7 @@ main .text p{
 }
 
 .col-md  {
+  max-width: 100%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
